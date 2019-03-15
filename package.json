@@ -1,0 +1,33 @@
+{
+  "name": "belajarnodejs1",
+  "version": "1.0.0",
+  "description": "simple serial port",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noczero/BelajarNodeJS.git"
+  },
+  "keywords": [
+    "arduino",
+    "serialport",
+    "aptrg"
+  ],
+  "author": "Satrya Budi Pratama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noczero/BelajarNodeJS/issues"
+  },
+  "homepage": "https://github.com/noczero/BelajarNodeJS#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "serialport": "^6.0.5",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
